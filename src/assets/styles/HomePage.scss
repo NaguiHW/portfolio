@@ -1,10 +1,52 @@
 .home-page {
-  
+  display: flex;
+  height: 600px;
+
+  .image-container {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+
+    img {
+      width: 350px;
+      height: 350px;
+    }
+  }
+
+
+  .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 25px;
+
+    h1 {
+      font-size: 60px;
+      span {
+        color: #B5231B;
+      }
+    }
+
+    .line {
+      width: 355px;
+      height: 5px;
+      background-color: #B5231B;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+    
+    p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+  }
 }
 
 @media only screen and (min-width: 1440px) {
   .home-page {
-    background-color: red;
+    // background-color: red;
   }
 }
 
