@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import HomePage from '../components/HomePage';
 import SideBar from '../components/SideBar';
+import Projects from '../components/Projects';
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const App = () => {
     <>
       <SideBar />
       <HomePage />
+      <Projects />
     </>
   );
 };
