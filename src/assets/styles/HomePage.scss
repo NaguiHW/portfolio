@@ -1,6 +1,7 @@
 .home-page {
   display: flex;
-  height: 600px;
+  height: 100vh;
+  margin-left: 300px;
 
   .image-container {
     display: flex;
@@ -8,8 +9,10 @@
     margin: 0 10px;
 
     img {
-      width: 350px;
-      height: 350px;
+      display: block;
+      z-index: 1;
+      width: 450px;
+      height: 450px;
     }
   }
 
