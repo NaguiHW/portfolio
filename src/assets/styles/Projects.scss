@@ -1,0 +1,23 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .projects-area {
+    display: flex;
+    flex-wrap: wrap;
+
+    .project {
+      margin: 20px 50px;
+
+      img {
+        height: 350px;
+      }
+    }
+  }
+}
