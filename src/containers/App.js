@@ -7,17 +7,17 @@ const App = () => {
     document.addEventListener('scroll', () => {
       const height = window.pageYOffset;
       const sidebar = document.getElementById('sidebar');
-      sidebar.className = height >= 250 ? 'sidebar-scroll' : 'sidebar';
-      console.log(height);
-      console.log(sidebar);
+      if (height >= 250) {
+        sidebar.classList.add('sidebar-scroll');
+      } else {
+        sidebar.classList.remove('sidebar-scroll');
+      }
     });
   });
 
   return (
     <>
       <SideBar />
-      <HomePage />
-      <HomePage />
       <HomePage />
     </>
   );

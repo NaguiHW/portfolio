@@ -1,0 +1,41 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 450px;
+  height: 100%;
+  position: fixed;
+  color: white;
+  background-color: #B5231B;
+  transition: width 0.5s;
+}
+
+.sidebar-scroll {
+  width: 250px;
+}
+
+.content {
+  margin: 35px;
+
+  h3 {
+    font-size: 20px;
+    margin: 10px 0 5px;
+  }
+
+  h5 {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .icons-area {
+    display: flex;
+    a {
+      text-decoration: none;
+      color: white;
+      i {
+        margin: 5px 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}
