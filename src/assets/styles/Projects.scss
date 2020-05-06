@@ -3,20 +3,49 @@
   flex-direction: column;
   margin-left: 300px;
   align-items: center;
-
   h1 {
     font-size: 50px;
   }
 
   .projects-area {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
 
     .project {
-      margin: 20px 50px;
+      margin: 20px auto;
 
       img {
-        height: 350px;
+        width: 450px;
+      }
+
+      h3 {
+        font-size: 24px;
+        margin: 5px;
+      }
+
+      .technologies {
+        display: flex;
+
+        h5 {
+          margin: 5px;
+          padding: 5px;
+          border: 1px solid #FF4940;
+          border-radius: 8px;
+        }
+      }
+
+      .links {
+        a {
+          text-decoration: none;
+          color: black;
+          margin: 5px;
+          font-size: 20px;
+
+          &:hover {
+            color: #FF4940;
+          }
+        }
       }
     }
   }
